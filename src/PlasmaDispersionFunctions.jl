@@ -9,11 +9,11 @@ abstract type AbstractDistribution end
 
 struct Maxwellian <: AbstractDistribution end
 
-"""
+@doc raw"""
     Z(ζ, [f, l])
 
 ```math
-Z_l(ζ)= \\int_{-\infty}^{\infty} \\frac{x^l f(x)}{x-ζ} dx
+Z_l(ζ)= \int_{-\infty}^{\infty} \frac{x^l f(x)}{x-ζ} dx
 ```
 
 Calculate the genralized plasma dispersion function for an arbitrary distribution function `f` of order `l`.
