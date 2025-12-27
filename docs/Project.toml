@@ -1,3 +1,4 @@
 [deps]
+Chairmarks = "0ca39b1e-fe0b-4e98-acfc-b1656634c4de"
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
-PlasmaDispersionFunction = "f285494a-2ed6-4acd-abe2-dee598a9e1b5"
+PlasmaDispersionFunctions = "f285494a-2ed6-4acd-abe2-dee598a9e1b5"

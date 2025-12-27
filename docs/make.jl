@@ -1,23 +1,23 @@
-using PlasmaDispersionFunction
+using PlasmaDispersionFunctions
 using Documenter
 
-DocMeta.setdocmeta!(PlasmaDispersionFunction, :DocTestSetup, :(using PlasmaDispersionFunction); recursive=true)
+DocMeta.setdocmeta!(PlasmaDispersionFunctions, :DocTestSetup, :(using PlasmaDispersionFunctions); recursive = true)
 
 makedocs(;
-    modules=[PlasmaDispersionFunction],
-    authors="Beforerr <zzj956959688@gmail.com> and contributors",
-    sitename="PlasmaDispersionFunction.jl",
-    format=Documenter.HTML(;
-        canonical="https://JuliaSpacePhysics.github.io/PlasmaDispersionFunction.jl",
-        edit_link="main",
-        assets=String[],
+    modules = [PlasmaDispersionFunctions],
+    authors = "Beforerr <zzj956959688@gmail.com> and contributors",
+    sitename = "PlasmaDispersionFunctions.jl",
+    format = Documenter.HTML(;
+        canonical = "https://JuliaSpacePhysics.github.io/PlasmaDispersionFunctions.jl",
+        edit_link = "main",
+        assets = String[],
     ),
-    pages=[
+    pages = [
         "Home" => "index.md",
     ],
 )
 
 deploydocs(;
-    repo="github.com/JuliaSpacePhysics/PlasmaDispersionFunction.jl",
-    devbranch="main",
+    repo = "github.com/JuliaSpacePhysics/PlasmaDispersionFunctions.jl",
+    devbranch = "main",
 )

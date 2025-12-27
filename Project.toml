@@ -1,7 +1,16 @@
-name = "PlasmaDispersionFunction"
+name = "PlasmaDispersionFunctions"
 uuid = "f285494a-2ed6-4acd-abe2-dee598a9e1b5"
 authors = ["Beforerr <zzj956959688@gmail.com> and contributors"]
 version = "1.0.0-DEV"
 
+[workspace]
+projects = ["test", "docs"]
+
+[deps]
+QuadGK = "1fd47b50-473d-5c70-9696-f719f8f3bcdc"
+SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
+
 [compat]
+QuadGK = "2"
+SpecialFunctions = "2"
 julia = "1.10"
