@@ -1,7 +1,7 @@
 name = "PlasmaDispersionFunctions"
 uuid = "f285494a-2ed6-4acd-abe2-dee598a9e1b5"
 authors = ["Beforerr <zzj956959688@gmail.com> and contributors"]
-version = "1.0.0-DEV"
+version = "0.1.0"
 
 [workspace]
 projects = ["test", "docs"]
